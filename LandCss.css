@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #646FD4;
+    font-family: 'Zen dots', cursive;
+    color: white;
+    font-size: 16px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.blaadjes {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    height: 500px;
+    width: 850px;
+    overflow: hidden;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+}
+
+.content .images {
+    padding: 10% auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: top;
+}
+
+.images img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(223, 223, 223);
+    font-size: larger;
+}
+
+.post-it {
+    margin-left: 20px;
+    width: 400px;
+    height: 400px;
+    background: #646FD4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 100%, 0% 100%);
+    transition: 1s all;
+    transform-origin: top left;
+    flex-shrink: 0;
+}
+
+.post-it:hover {
+    transform: rotate(15deg);
+    transition: 0.5s all;
+}
+
+.verleden {
+    background: #9BA3EB;
+}
+
+.Reserveren {
+    background: #9BA3EB;
+}
+
+.Media {
+    background: #9BA3EB;
+}
+
+.verleden>div,
+.Reserveren>div,
+.Media>div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.verleden>div {
+    background: #858ccc;
+}
+
+.Reserveren>div {
+    background: #858ccc;
+}
+
+.Media>div {
+    background: #858ccc;
+}
+
+.text {
+    font-size: 250%;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1200px) {
+    .post-it:hover {
+        transform: none;
+    }
+}

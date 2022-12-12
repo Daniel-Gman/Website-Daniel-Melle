@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="LandCss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Media/Media.html">
+    <link rel="stylesheet" href="Reserveren/Reserveren.html">
+    <link rel="stylesheet" href="Verleden/Verleden.html">
+    <link rel="stylesheet" href="LandJava.js">
+    <title>Post-its</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="images">
+            <img src="monster.jpg">
+            <img src="Woonkamer.jpg">
+            <img src="Zaal.jpg">
+        </div>
+    </div>
+    <script>
+        var indexValue = 0;
+        function slideShow() {
+            setTimeout(slideShow, 2500);
+            var x;
+            const img = document.querySelectorAll("img");
+            for (x = 0; x < img.length; x++) {
+                img[x].style.display = "none";
+            }
+            indexValue++;
+            if (indexValue > img.length) { indexValue = 1 }
+            img[indexValue - 1].style.display = "block";
+        }
+        slideShow();
+    </script>
+    <div class="blaadjes">
+        <a href="Verleden/Verleden.html">
+
+            <figure class="post-it verleden">
+
+
+                <h2 class="text">Verleden </h2>
+
+                <div>
+
+                </div>
+            </figure>
+        </a>
+
+        <a href="Reserveren/Reserveren.html">
+            <figure class="post-it Reserveren">
+
+                <h2 class="text">Reserveren </h2>
+
+                <div>
+
+                </div>
+            </figure>
+        </a>
+
+        <a href="Media/Media.html">
+            <figure class="post-it Media">
+
+                <h2 class="text">Media </h2>
+
+                <div>
+
+                </div>
+            </figure>
+        </a>
+    </div>
+</body>
+
+</html>
