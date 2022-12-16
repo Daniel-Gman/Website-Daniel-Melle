@@ -3,6 +3,24 @@
     margin: 0;
 }
 
+.title {
+    font-size: 225%;
+}
+
+.Logo1 {
+    display: flex;
+    justify-content: right;
+    width: 100px;
+    margin-top: 22px;
+}
+
+.Logo2 {
+    display: flex;
+    justify-content: left;
+    width: 100px;
+    margin-top: 60px;
+}
+
 body {
     margin: 0;
     display: flex;
@@ -19,9 +37,15 @@ body {
 
 h1 {
     font-size: larger;
+    margin-top: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.Openingstijden {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    font-size: 150%;
 }
 
 .tijdslot {
@@ -135,9 +159,10 @@ ul {
 }
 
 .LeukeFeiten {
-    font-size: xx-large;
+    font-size: 175%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 88px;
 }
 
 .inleiding1,
@@ -149,13 +174,6 @@ ul {
     text-align: center;
     margin-top: 20px;
 }
-
-
-
-
-
-
-
 
 
 .blaadjes {
@@ -252,7 +270,7 @@ a:hover {
 }
 
 .text {
-    font-size: 250%;
+    font-size: 220%;
     font-weight: 400;
 }
 

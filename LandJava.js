@@ -2,7 +2,7 @@ var indexValue = 0;
 function slideShow() {
     setTimeout(slideShow, 2500);
     var x;
-    const img = document.querySelectorAll("img");
+    const img = document.getElementsByClassName("Preview");
     for (x = 0; x < img.length; x++) {
         img[x].style.display = "none";
     }
