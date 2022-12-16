@@ -12,10 +12,151 @@ body {
     background: #646FD4;
     font-family: 'Zen dots', cursive;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     gap: 20px;
     flex-wrap: wrap;
 }
+
+h1 {
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.tijdslot {
+    height: 600px;
+    width: 620px;
+    margin: left;
+    background: #858ccc;
+    display: flex;
+    justify-content: left;
+    position: relative;
+}
+
+.tijdsloten {
+    height: 600px;
+    width: 620px;
+    background: #9BA3EB;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    flex-direction: column;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Dag1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Dag2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Dag3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Dag4 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Dag5 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Dag6 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Dag7 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ExtraInfo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+
+
+.inleiding {
+    height: 600px;
+    width: 620px;
+    margin: left;
+    background: #858ccc;
+    display: flex;
+    justify-content: right;
+    position: relative;
+}
+
+.inleidingen {
+    height: 600px;
+    width: 620px;
+    margin: left;
+    background: #9BA3EB;
+    display: flex;
+    justify-content: left;
+    position: relative;
+}
+
+.LeukeFeiten {
+    font-size: xx-large;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inleiding1,
+.inleiding2,
+.inleiding3 {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
 
 .blaadjes {
     display: flex;
@@ -24,13 +165,13 @@ body {
 
 .content {
     height: 500px;
-    width: 850px;
+    width: 1260px;
     overflow: hidden;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
 }
 
 .content .images {
     padding: 10% auto;
+    margin-top: 30px;
     height: 100%;
     width: 100%;
     display: flex;
@@ -57,7 +198,7 @@ a:hover {
 }
 
 .post-it {
-    margin-left: 20px;
+    margin: 15px;
     width: 400px;
     height: 400px;
     background: #646FD4;
