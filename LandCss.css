@@ -94,6 +94,12 @@ main {
     animation-fill-mode: backwards;
 }
 
+.Title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 h1 {
     font-size: larger;
     margin-top: 80px;
@@ -138,54 +144,13 @@ ul {
 }
 
 
-.Dag1 {
+.Dag {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
 
-.Dag2 {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.Dag3 {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.Dag4 {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.Dag5 {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.Dag6 {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.Dag7 {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
 
 .ExtraInfo {
     flex-direction: column;

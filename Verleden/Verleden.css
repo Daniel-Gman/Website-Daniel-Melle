@@ -74,8 +74,12 @@ nav>ul>.active {
 
 a:hover {
     color: rgb(223, 223, 223);
+}
+
+.artikels:hover {
     font-size: larger;
 }
+
 
 h1 {
     font-size: 250%;
