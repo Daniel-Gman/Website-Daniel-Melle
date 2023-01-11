@@ -1,0 +1,40 @@
+* {
+    background-color: none;
+    height: 80%;
+    width: auto;
+    margin: 0;
+    box-sizing: border-box;
+    align-items: under;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    min-height: 100vh;
+    background: #646fd4;
+}
+
+.gif {
+    width: 100%;
+}
+
+
+.demo {
+    background-image: url('/gif/ezgif.com-gif-maker.gif');
+
+}
+
+.box {
+    background-color: #0A151C;
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    left: 0%;
+    top: 80%;
+}
+
+.sponsor {
+    font-size: 150%;
+    font-weight: 400;
+}
