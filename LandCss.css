@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+
+html {
+    scroll-behavior: smooth;
+}
+
+
 .title {
     font-size: 225%;
 }
@@ -33,6 +39,59 @@ body {
     font-size: 20px;
     gap: 20px;
     flex-wrap: wrap;
+}
+
+header {
+    background-color: #222831;
+    color: white;
+    height: 60px;
+    width: 100%;
+}
+
+
+nav {
+    width: 60vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+nav>ul>li {
+    width: 100%;
+    height: 100%;
+}
+
+nav>ul>li>a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 60px;
+    text-align: center;
+}
+
+nav>ul>li>a:visited,
+nav>ul>li>a:link {
+    color: white;
+    text-decoration: none;
+}
+
+nav>ul>.active {
+    background: #3c50ff;
+}
+
+main {
+    animation-name: popup;
+    animation-duration: 0.8s;
+    animation-fill-mode: backwards;
 }
 
 h1 {
@@ -77,6 +136,7 @@ ul {
     flex-direction: column;
     align-items: center;
 }
+
 
 .Dag1 {
     flex-direction: column;
@@ -135,7 +195,6 @@ ul {
     margin-top: 30px;
     padding: 5px;
 }
-
 
 
 .inleiding {
@@ -277,5 +336,76 @@ a:hover {
 @media screen and (max-width: 1200px) {
     .post-it:hover {
         transform: none;
+    }
+}
+
+@keyframes popup {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    footer>p {
+        width: 80vw;
+    }
+
+    img:hover {
+        transform: none;
+    }
+
+    .top {
+        bottom: 20px;
+        right: 20px;
+        width: 60px;
+        height: 60px;
+    }
+
+    header {
+        height: auto;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav>ul {
+        display: block;
+        height: 100%;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    nav>ul>li {
+        width: 100%;
+        text-align: center;
+        height: 80px;
+    }
+
+    nav>ul>li>a {
+        line-height: 80px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+
+    footer>p {
+        width: 100vw;
+        padding-left: 60px;
     }
 }
