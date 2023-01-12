@@ -12,7 +12,8 @@ body {
     justify-content: center;
     align-items: top;
     min-height: 100vh;
-    background: #646fd4;
+    background-color: #646fd4;
+    background-image: url("gif/ezgif.com-gif-maker.gif");
 }
 
 .gif {
